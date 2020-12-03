@@ -15,5 +15,4 @@ install:
 script:
   - pytest
 
-install: pip install --user -r requirements.txt
 pip freeze > requirements.txt
